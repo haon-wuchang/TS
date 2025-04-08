@@ -43,6 +43,7 @@ function greet6<T>(data :T): T{
 }
 console.log(greet6<string>('홍'));  //원시타입인 string 타입의 Wrapper Class인 String 클래스로 자동 변환 
 console.log(greet6<number>(100));
+console.log(greet6<boolean>(true));
 console.log(greet6<Array<number>>([1,2,3,4,5]));
 console.log(greet6<Array<number>>(new Array(1,2,3,4,5)));
 

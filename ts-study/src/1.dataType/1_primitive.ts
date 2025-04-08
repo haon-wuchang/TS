@@ -22,7 +22,7 @@ console.log('flag',flag);
 
 // 배열안의 요소를 문자열타입으로 지정 
 const names: string[] = ['홍길동','홍길순','홍길영']; // 얘는 배열안에 값들의 데이터타입을 string 으로 한다는거임
-// const names2: string = ['홍길동','홍길순','홍길영']; 
+// const names2: string = ['홍길동','홍길순','홍길영']; 이케하면 이 변수자체의 데이터타입을 바꾸는건데 이 타입은 이미 정해져있기때문에 바꿀수없음
 // names,names2 에는 객체의주소가 들어가게된다 근데 이 객체가 들어가는주소인 names는 타입이 정해져있어서 내가 맘대로 string 바꾸면 안됨 
 console.log('names',names);
 

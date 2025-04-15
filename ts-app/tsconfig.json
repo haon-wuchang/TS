@@ -18,7 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl" : "src" ,// 어느시점부터 tsconfig.json파일을 찾는 기준을 둘 건지 
+    "paths": {
+      "@interfaces/*" : ["interfaces/*"],
+    },
   },
   "include": [
     "src"

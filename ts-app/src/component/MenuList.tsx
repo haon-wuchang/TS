@@ -42,7 +42,7 @@ import {Menus, MenusPrice, MenusSource} from '@interfaces/common';
 // tsconfig.json 파일에 저장된 파일의 경로를 path 와 별칭으로 추가한 후 임포트
 // interfaces 폴더 생성 - common.ts 
 type MenuListPropsCheck = {
-    menus: (Menus | MenusPrice | MenusSource)[];
+    menus: ( Menus | MenusPrice | MenusSource )[];
 }
 
 const MenuList: React.FC<MenuListPropsCheck> = ({ menus }) => {
